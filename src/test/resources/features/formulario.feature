@@ -1,6 +1,6 @@
 # language: pt
 
-Funcionalidade: CheckBox Heroku
+Funcionalidade: Formulario wc aquino
 
   @wcaquino
   Esquema do Cenário: Testes do site wc aquino
