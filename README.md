@@ -64,13 +64,13 @@ Baixe de acordo com a versão do seu chrome, o arquivo será baixado zipado, ext
 
 ## ESTRUTURA DO PROJETO
 
-# Features: No Cucumber, os recursos são arquivos de especificação escritos em uma linguagem chamada Gherkin. Eles descrevem o comportamento do sistema em termos de cenários e etapas. Um recurso é composto por cenários, que representam casos de teste específicos.
+Features: No Cucumber, os recursos são arquivos de especificação escritos em uma linguagem chamada Gherkin. Eles descrevem o comportamento do sistema em termos de cenários e etapas. Um recurso é composto por cenários, que representam casos de teste específicos.
 
-# RunCucumberTest: A execução dos testes do Cucumber envolve a execução dos cenários descritos nos arquivos de recursos. Isso é feito por meio da definição dos passos correspondentes a cada etapa em um arquivo de passos (steps).
+RunCucumberTest: A execução dos testes do Cucumber envolve a execução dos cenários descritos nos arquivos de recursos. Isso é feito por meio da definição dos passos correspondentes a cada etapa em um arquivo de passos (steps).
 
-# Steps: Os steps são as implementações das etapas definidas nos cenários dos arquivos de recursos. Eles são responsáveis por interagir com o sistema em teste e realizar as ações necessárias. Os passos são escritos em uma linguagem de programação e mapeados aos cenários por meio de expressões regulares ou anotações.
+Steps: Os steps são as implementações das etapas definidas nos cenários dos arquivos de recursos. Eles são responsáveis por interagir com o sistema em teste e realizar as ações necessárias. Os passos são escritos em uma linguagem de programação e mapeados aos cenários por meio de expressões regulares ou anotações.
 
-# Pages: Classes que representam as páginas ou componentes de uma aplicação web em testes automatizados. Elas encapsulam os elementos da interface do usuário e fornecem métodos para interagir com eles.
+Pages: Classes que representam as páginas ou componentes de uma aplicação web em testes automatizados. Elas encapsulam os elementos da interface do usuário e fornecem métodos para interagir com eles.
 
-# DTO (Data Transfer Object): O DTO é um padrão de design usado para transferir dados entre diferentes camadas de um sistema. No contexto do Cucumber, os DTOs são objetos utilizados para representar os dados de entrada ou saída em um cenário de teste. Eles são tipicamente estruturas simples com atributos que correspondem aos dados manipulados pelo sistema em teste.
+DTO (Data Transfer Object): O DTO é um padrão de design usado para transferir dados entre diferentes camadas de um sistema. No contexto do Cucumber, os DTOs são objetos utilizados para representar os dados de entrada ou saída em um cenário de teste. Eles são tipicamente estruturas simples com atributos que correspondem aos dados manipulados pelo sistema em teste.
 
