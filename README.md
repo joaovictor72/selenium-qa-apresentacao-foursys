@@ -93,7 +93,14 @@ Os steps são as implementações das etapas definidas nos cenários dos arquivo
 # Pages: 
 Classes que representam as páginas ou componentes de uma aplicação web em testes automatizados. Elas encapsulam os elementos da interface do usuário e fornecem métodos para interagir com eles.
 
-private By element_nome = By.id("elementosForm:nome");
+ - private By element_nome = By.id("elementosForm:nome");
 
 Essas mapeadas são objetos do tipo By, que permitem localizar e interagir com elementos específicos da página. Esses objetos são utilizados nos métodos da classe FormularioPage para executar ações de clique, preenchimento e seleção nos elementos do formulário.
+- public FormularioPage(WebDriver driver){
+        this.driver = driver;
+    }
+
+É o construtor da classe, que recebe o chrome driver da RUNNER.
+
+
 
