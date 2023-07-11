@@ -1,9 +1,8 @@
 # selenium-qa-apresentacao-foursys
 
-### REQUISITOS
+# REQUISITOS
 
-# Java 11, Maven configurados nas variaveis de ambiente
-# Chrome WebDriver com a mesma versão do seu navegador
+## Java 11, Maven configurados nas variaveis de ambiente,  Chrome WebDriver com a mesma versão do seu navegador
 
 Acesse o site da Oracle ou do OpenJDK para baixar o JDK 11 de acordo com seu sistema operacional.
 https://www.oracle.com/br/java/technologies/javase/jdk11-archive-downloads.html
