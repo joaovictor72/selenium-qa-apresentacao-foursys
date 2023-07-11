@@ -112,7 +112,7 @@ Essas mapeadas são objetos do tipo By, que permitem localizar e interagir com e
 
 
 
-No metodo de preencherFormulario, você passa o string nome e sobrenome como parâmtros, esses parâmetros serão enviados para o método dos Steps, recebendo outra string nome e sobrenome, o Step vai buscar da tabela do Cucumber.
+No metodo de preencherFormulario, você passa o string nome e sobrenome como parâmetros, esses parâmetros serão enviados para o método dos Steps, recebendo outra string nome e sobrenome, o Step vai buscar da tabela do Cucumber.
 
  @wcaquino
   Esquema do Cenário: Testes do site wc aquino
