@@ -30,18 +30,18 @@ Acesse o site do Apache Maven para baixar a versão mais recente do Maven em for
 https://maven.apache.org/download.cgi
 
 Abra o Painel de Controle do Windows.
-Pesquise por "Variáveis de Ambiente" e clique em "Editar as variáveis de ambiente do sistema".
-Na janela "Propriedades do Sistema", clique em "Variáveis de Ambiente".
-Em "Variáveis do sistema", clique em "Novo".
-Defina o nome da variável como "M2_HOME".
-No valor da variável, digite o caminho completo para o diretório do Maven (por exemplo, "C:\Program Files\Apache\maven").
-Clique em "OK" para salvar a variável.
-Adicione o diretório bin do Maven ao PATH:
+ - Pesquise por "Variáveis de Ambiente" e clique em "Editar as variáveis de ambiente do sistema".
+ - Na janela "Propriedades do Sistema", clique em "Variáveis de Ambiente".
+ - Em "Variáveis do sistema", clique em "Novo".
+ - Defina o nome da variável como "M2_HOME".
+ - No valor da variável, digite o caminho completo para o diretório do Maven (por exemplo, "C:\Program Files\Apache\maven").
+ - Clique em "OK" para salvar a variável.
+ - Adicione o diretório bin do Maven ao PATH:
 
-Na mesma janela "Variáveis de Ambiente", localize a variável "Path" em "Variáveis do sistema" e clique em "Editar".
-Clique em "Novo" e adicione "%M2_HOME%\bin" como valor.
-Clique em "OK" para salvar a variável.
-Verifique a instalação do Maven:
+ - Na mesma janela "Variáveis de Ambiente", localize a variável "Path" em "Variáveis do sistema" e clique em "Editar".
+ - Clique em "Novo" e adicione "%M2_HOME%\bin" como valor.
+ - Clique em "OK" para salvar a variável.
+ - Verifique a instalação do Maven:
 
 Feche todos os terminais ou prompts de comando que estejam abertos.
 Abra um novo prompt de comando.
