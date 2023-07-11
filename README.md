@@ -30,26 +30,21 @@ Acesse o site do Apache Maven para baixar a versão mais recente do Maven em for
 https://maven.apache.org/download.cgi
 
 Abra o Painel de Controle do Windows.
- - Pesquise por "Variáveis de Ambiente" e clique em "Editar as variáveis de ambiente do sistema".
- - Na janela "Propriedades do Sistema", clique em "Variáveis de Ambiente".
- - Em "Variáveis do sistema", clique em "Novo".
- - Defina o nome da variável como "M2_HOME".
- - No valor da variável, digite o caminho completo para o diretório do Maven (por exemplo, "C:\Program Files\Apache\maven").
- - Clique em "OK" para salvar a variável.
- - Adicione o diretório bin do Maven ao PATH:
-
- - Na mesma janela "Variáveis de Ambiente", localize a variável "Path" em "Variáveis do sistema" e clique em "Editar".
- - Clique em "Novo" e adicione "%M2_HOME%\bin" como valor.
- - Clique em "OK" para salvar a variável.
- - Verifique a instalação do Maven:
-
-Feche todos os terminais ou prompts de comando que estejam abertos.
-Abra um novo prompt de comando.
-Digite o seguinte comando:
-mvn -version
-
-Deve exibir a versão do Maven instalada e outras informações relacionadas.
-
+ - 1: Pesquise por "Variáveis de Ambiente" e clique em "Editar as variáveis de ambiente do sistema".
+ - 2: Na janela "Propriedades do Sistema", clique em "Variáveis de Ambiente".
+ - 3: Em "Variáveis do sistema", clique em "Novo".
+ - 4: Defina o nome da variável como "M2_HOME".
+ - 5: No valor da variável, digite o caminho completo para o diretório do Maven (por exemplo, "C:\Program Files\Apache\maven").
+ - 6: Clique em "OK" para salvar a variável.
+ - 7: Adicione o diretório bin do Maven ao PATH:
+ - 8: Na mesma janela "Variáveis de Ambiente", localize a variável "Path" em "Variáveis do sistema" e clique em "Editar".
+ - 9: Clique em "Novo" e adicione "%M2_HOME%\bin" como valor.
+ - 10: Clique em "OK" para salvar a variável.
+ - 11: Verifique a instalação do Maven:
+ - 12: Feche todos os terminais ou prompts de comando que estejam abertos.
+ - 13: Abra um novo prompt de comando.
+ - 14: Digite o seguinte comando: mvn -version
+ - 15: Deve exibir a versão do Maven instalada e outras informações relacionadas.
 ----------------------------------------------------------------------------------------------------------------------------------
 
 # Configure o SELENIUM WEB DRIVER
