@@ -1,6 +1,6 @@
 # selenium-qa-apresentacao-foursys
 
-### REQUISITOS ###
+### REQUISITOS
 
 # Java 11, Maven configurados nas variaveis de ambiente
 # Chrome WebDriver com a mesma versão do seu navegador
