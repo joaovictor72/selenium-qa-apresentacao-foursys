@@ -7,21 +7,18 @@ https://www.oracle.com/br/java/technologies/javase/jdk11-archive-downloads.html
 
  # Configure a variável de ambiente JAVA_HOME:
 
-Abra o Painel de Controle do Windows
-Pesquise por "Variáveis de Ambiente" e clique em "Editar as variáveis de ambiente do sistema".
-Na janela "Propriedades do Sistema", clique em "Variáveis de Ambiente".
-Em "Variáveis do sistema", clique em "Novo".
-Digite "JAVA_HOME" como nome da variável.
-No valor da variável, digite o caminho para o diretório de instalação do JDK 11. Por exemplo, "C:\Program Files\Java\jdk-11".
-Clique em "OK" para salvar a variável.
-Adicione o diretório bin do JDK ao PATH:
-
-Na mesma janela "Variáveis de Ambiente", localize a variável "Path" em "Variáveis do sistema" e clique em "Editar".
-Clique em "Novo" e adicione o caminho para o diretório bin do JDK 11. Por exemplo, "%JAVA_HOME%\bin".
-Clique em "OK" para salvar a variável.
-Verifique a instalação do Java:
-
-Abra um novo terminal (ou prompt de comando) e digite o comando "java -version". Deve exibir a versão do Java instalada.
+Abra o Painel de Controle do Windows:
+ - 1: Pesquise por "Variáveis de Ambiente" e clique em "Editar as variáveis de ambiente do sistema".
+ - 2: Na janela "Propriedades do Sistema", clique em "Variáveis de Ambiente".
+ - 3: Em "Variáveis do sistema", clique em "Novo".
+ - 4: Digite "JAVA_HOME" como nome da variável.
+ - 5: No valor da variável, digite o caminho para o diretório de instalação do JDK 11. Por exemplo, "C:\Program Files\Java\jdk-11".
+ - 6: Clique em "OK" para salvar a variável.
+ - 7: Adicione o diretório bin do JDK ao PATH:
+ - 8: Na mesma janela "Variáveis de Ambiente", localize a variável "Path" em "Variáveis do sistema" e clique em "Editar".
+ - 9: Clique em "Novo" e adicione o caminho para o diretório bin do JDK 11. Por exemplo, "%JAVA_HOME%\bin".
+ - 10: Clique em "OK" para salvar a variável.
+ - 11: Verifique a instalação do Java: Abra um novo terminal (ou prompt de comando) e digite o comando "java -version". Deve exibir a versão do Java instalada.
 
 ----------------------------------------------------------------------------------------------------------------------------------
 # Configure a variável de ambiente M2_HOME:
@@ -29,7 +26,7 @@ Abra um novo terminal (ou prompt de comando) e digite o comando "java -version".
 Acesse o site do Apache Maven para baixar a versão mais recente do Maven em formato de arquivo binário:
 https://maven.apache.org/download.cgi
 
-Abra o Painel de Controle do Windows.
+Abra o Painel de Controle do Windows:
  - 1: Pesquise por "Variáveis de Ambiente" e clique em "Editar as variáveis de ambiente do sistema".
  - 2: Na janela "Propriedades do Sistema", clique em "Variáveis de Ambiente".
  - 3: Em "Variáveis do sistema", clique em "Novo".
