@@ -102,5 +102,24 @@ Essas mapeadas são objetos do tipo By, que permitem localizar e interagir com e
 
 É o construtor da classe, que recebe o chrome driver da RUNNER.
 
+- public void preencherFormulario(String nome, String sobrenome){
+        driver.findElement((element_nome)).click();
+        driver.findElement((element_nome)).sendKeys(nome);
+        driver.findElement((element_sobrenome)).sendKeys(sobrenome);
+        driver.findElement((sexo_masculino)).click();
+        driver.findElement((comida)).click();
+        driver.findElement((escolaridade)).click();
+
+
+
+No metodo de preencherFormulario, você passa o string nome e sobrenome como parâmtros, esses parâmetros serão enviados para o método dos Steps, recebendo outra string nome e sobrenome, o Step vai buscar da tabela do Cucumber.
+
+ @wcaquino
+  Esquema do Cenário: Testes do site wc aquino
+    Dado acessei o site do wc aquino
+    Entao preencho o formulario com nome <nome> e sobrenome <sobrenome>
+    Exemplos:
+      | nome    | sobrenome   |
+      | Joao | Victor |
 
 
