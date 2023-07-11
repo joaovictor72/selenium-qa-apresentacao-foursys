@@ -46,11 +46,8 @@ Abra o Painel de Controle do Windows:
 
 # Configure o SELENIUM WEB DRIVER
 
-https://chromedriver.chromium.org/downloads
-
-Baixe o Chrome Driver: https://chromedriver.chromium.org/downloads
-
-Baixe de acordo com a versão do seu chrome, o arquivo será baixado zipado, extraia em uma pasta a sua escolha, copie o arquivo chromedriver.exe e arraste para a raiz principal do seu projeto (seleniumqa-apresentacao-foursys)
+- 1: Baixe o Chrome Driver: https://chromedriver.chromium.org/downloads
+- 2: Baixe de acordo com a versão do seu chrome, o arquivo será baixado zipado, extraia em uma pasta a sua escolha, copie o arquivo chromedriver.exe e arraste para a raiz principal do seu projeto (seleniumqa-apresentacao-foursys)
 
 ----------------------------------------------------------------------------------------------------------------------------------
 
