@@ -67,8 +67,37 @@ Baixe de acordo com a versão do seu chrome, o arquivo será baixado zipado, ext
 # Features: 
 No Cucumber, os recursos são arquivos de especificação escritos em uma linguagem chamada Gherkin. Eles descrevem o comportamento do sistema em termos de cenários e etapas. Um recurso é composto por cenários, que representam casos de teste específicos.
 
+Funcionalidade: Formulario wc aquino
+
+  @wcaquino
+  Esquema do Cenário: Testes do site wc aquino
+    Dado acessei o site do wc aquino
+    Entao preencho o formulario com nome <nome> e sobrenome <sobrenome>
+    Exemplos:
+      | nome    | sobrenome   |
+      | Joao | Victor |
+
 # RunCucumberTest: 
 A execução dos testes do Cucumber envolve a execução dos cenários descritos nos arquivos de recursos. Isso é feito por meio da definição dos passos correspondentes a cada etapa em um arquivo de passos (steps).
+
+@RunWith(Cucumber.class): Essa anotação indica que a classe RunCucumberTest será executada como um teste de Cucumber. Ela define a classe de execução do Cucumber.
+
+@CucumberOptions(...): Essa anotação define as opções de configuração para a execução do Cucumber.
+
+plugin = {"json:target/reports/cucumberReport.json", "html:target/reports/"}: Configuração dos plugins utilizados para geração de relatórios. Nesse caso, os relatórios serão gerados em formato JSON e HTML.
+
+features = "src/test/resources/features": Define o diretório onde estão localizados os arquivos de recursos (features) que serão executados. Nesse caso, os arquivos estão localizados em src/test/resources/features.
+
+tags = {"~@ignore"}: Especifica as tags que serão utilizadas para filtrar quais cenários serão executados. Nesse caso, os cenários com a tag @ignore serão excluídos da execução.
+
+glue = {"steps"}: Define o pacote onde estão localizadas as classes de passos (steps). Nesse caso, as classes estão no pacote steps.
+
+@BeforeClass: Anotação que indica que o método start() será executado antes de todos os testes.
+
+driver = new ChromeDriver(): Cria uma instância do ChromeDriver, que será utilizado para automatizar as interações com o navegador.
+@AfterClass: Anotação que indica que o método stop() será executado após a execução de todos os testes.
+
+driver.quit(): Encerra a instância do ChromeDriver e fecha o navegador.
 
 # Steps: 
 Os steps são as implementações das etapas definidas nos cenários dos arquivos de recursos. Eles são responsáveis por interagir com o sistema em teste e realizar as ações necessárias. Os passos são escritos em uma linguagem de programação e mapeados aos cenários por meio de expressões regulares ou anotações.
