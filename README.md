@@ -57,7 +57,7 @@ Baixe de acordo com a versão do seu chrome, o arquivo será baixado zipado, ext
 ## ESTRUTURA DO PROJETO
 
 # Features: 
-No Cucumber, os recursos são arquivos de especificação escritos em uma linguagem chamada Gherkin. Eles descrevem o comportamento do sistema em termos de cenários e etapas. Um recurso é composto por cenários, que representam casos de teste específicos.
+- No Cucumber, os recursos são arquivos de especificação escritos em uma linguagem chamada Gherkin. Eles descrevem o comportamento do sistema em termos de cenários e etapas. Um recurso é composto por cenários, que representam casos de teste específicos.
 
 Funcionalidade: Formulario wc aquino
 
