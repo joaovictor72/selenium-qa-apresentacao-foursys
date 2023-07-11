@@ -102,6 +102,18 @@ driver.quit(): Encerra a instância do ChromeDriver e fecha o navegador.
 # Steps: 
 Os steps são as implementações das etapas definidas nos cenários dos arquivos de recursos. Eles são responsáveis por interagir com o sistema em teste e realizar as ações necessárias. Os passos são escritos em uma linguagem de programação e mapeados aos cenários por meio de expressões regulares ou anotações.
 
+public class FormularioSteps extends RunCucumberTest: Essa classe FormularioSteps herda da classe RunCucumberTest, que é a classe principal que configura a execução dos testes do Cucumber.
+
+FormularioPage formularioPage = new FormularioPage(driver): Cria uma instância da classe FormularioPage, que representa a página ou componente relacionado ao formulário. É passado o objeto driver como parâmetro para a classe FormularioPage.
+
+@Dado("acessei o site do wc aquino"): Essa anotação indica que o método que_estou_na_tela_wc_aquino() será executado quando a etapa "Dado acessei o site do wc aquino" for encontrada em um cenário.
+
+public void que_estou_na_tela_wc_aquino() throws InterruptedException: Método que implementa a etapa "Dado acessei o site do wc aquino". Essa etapa chama o método acesseiWCAquinoSite() da classe FormularioPage para realizar a ação de acessar o site wc aquino.
+
+@Entao("^preencho o formulario com nome (.*) e sobrenome (.*)$"): Essa anotação indica que o método preencher_formulario() será executado quando a etapa "Então preencho o formulario com nome <nome> e sobrenome <sobrenome>" for encontrada em um cenário. Os valores <nome> e <sobrenome> são capturados como parâmetros.
+
+public void preencher_formulario(String nome, String sobrenome) throws InterruptedException: Método que implementa a etapa "Então preencho o formulario com nome <nome> e sobrenome <sobrenome>". Essa etapa chama o método preencherFormulario(nome, sobrenome) da classe FormularioPage para preencher o formulário com os valores recebidos como parâmetros.
+
 # Pages: 
 Classes que representam as páginas ou componentes de uma aplicação web em testes automatizados. Elas encapsulam os elementos da interface do usuário e fornecem métodos para interagir com eles.
 
