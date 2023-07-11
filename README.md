@@ -117,14 +117,7 @@ public void preencher_formulario(String nome, String sobrenome) throws Interrupt
 # Pages: 
 Classes que representam as páginas ou componentes de uma aplicação web em testes automatizados. Elas encapsulam os elementos da interface do usuário e fornecem métodos para interagir com eles.
 
-element_nome: Representa um elemento do formulário pelo seu ID.
-element_sobrenome: Representa outro elemento do formulário pelo seu ID.
-sexo_masculino: Representa um elemento de seleção de sexo masculino no formulário.
-comida: Representa um elemento de seleção de comida no formulário.
-escolaridade: Representa um elemento de seleção de escolaridade no formulário.
+private By element_nome = By.id("elementosForm:nome");
 
 Essas mapeadas são objetos do tipo By, que permitem localizar e interagir com elementos específicos da página. Esses objetos são utilizados nos métodos da classe FormularioPage para executar ações de clique, preenchimento e seleção nos elementos do formulário.
-
-# DTO (Data Transfer Object): 
-O DTO é um padrão de design usado para transferir dados entre diferentes camadas de um sistema. No contexto do Cucumber, os DTOs são objetos utilizados para representar os dados de entrada ou saída em um cenário de teste. Eles são tipicamente estruturas simples com atributos que correspondem aos dados manipulados pelo sistema em teste.
 
