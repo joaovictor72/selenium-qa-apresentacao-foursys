@@ -5,7 +5,7 @@
 Acesse o site da Oracle ou do OpenJDK para baixar o JDK 11 de acordo com seu sistema operacional.
 https://www.oracle.com/br/java/technologies/javase/jdk11-archive-downloads.html
 
- # Configure a variável de ambiente JAVA_HOME:
+ # Configure a variável de ambiente JAVA_HOME
 
 Abra o Painel de Controle do Windows:
  - 1: Pesquise por "Variáveis de Ambiente" e clique em "Editar as variáveis de ambiente do sistema".
@@ -21,7 +21,7 @@ Abra o Painel de Controle do Windows:
  - 11: Verifique a instalação do Java: Abra um novo terminal (ou prompt de comando) e digite o comando "java -version". Deve exibir a versão do Java instalada.
 
 ----------------------------------------------------------------------------------------------------------------------------------
-# Configure a variável de ambiente M2_HOME:
+# Configure a variável de ambiente M2_HOME
 
 Acesse o site do Apache Maven para baixar a versão mais recente do Maven em formato de arquivo binário:
 https://maven.apache.org/download.cgi
@@ -66,7 +66,7 @@ Funcionalidade: Formulario wc aquino
       | nome    | sobrenome   |
       | Joao | Victor |
 
-# RunCucumberTest: 
+# RunCucumberTest
 A execução dos testes do Cucumber envolve a execução dos cenários descritos nos arquivos de recursos. Isso é feito por meio da definição dos passos correspondentes a cada etapa em um arquivo de passos (steps).
 
 - @RunWith(Cucumber.class): Essa anotação indica que a classe RunCucumberTest será executada como um teste de Cucumber. Ela define a classe de execução do Cucumber.
@@ -80,7 +80,7 @@ A execução dos testes do Cucumber envolve a execução dos cenários descritos
 - @AfterClass: Anotação que indica que o método stop() será executado após a execução de todos os testes.
 - driver.quit(): Encerra a instância do ChromeDriver e fecha o navegador.
 
-# Steps: 
+# Steps
 Os steps são as implementações das etapas definidas nos cenários dos arquivos de recursos. Eles são responsáveis por interagir com o sistema em teste e realizar as ações necessárias. Os passos são escritos em uma linguagem de programação e mapeados aos cenários por meio de expressões regulares ou anotações.
 
  - public class FormularioSteps extends RunCucumberTest: Essa classe FormularioSteps herda da classe RunCucumberTest, que é a classe principal que configura a execução dos testes do Cucumber.
@@ -90,7 +90,7 @@ Os steps são as implementações das etapas definidas nos cenários dos arquivo
 - @Entao("^preencho o formulario com nome (.*) e sobrenome (.*)$"): Essa anotação indica que o método preencher_formulario() será executado quando a etapa "Então preencho o formulario com nome <nome> e sobrenome <sobrenome>" for encontrada em um cenário. Os valores <nome> e <sobrenome> são capturados como parâmetros.
 - public void preencher_formulario(String nome, String sobrenome) throws InterruptedException: Método que implementa a etapa "Então preencho o formulario com nome <nome> e sobrenome <sobrenome>". Essa etapa chama o método preencherFormulario(nome, sobrenome) da classe FormularioPage para preencher o formulário com os valores recebidos como parâmetros.
 
-# Pages: 
+# Pages
 Classes que representam as páginas ou componentes de uma aplicação web em testes automatizados. Elas encapsulam os elementos da interface do usuário e fornecem métodos para interagir com eles.
 
  - private By element_nome = By.id("elementosForm:nome");
